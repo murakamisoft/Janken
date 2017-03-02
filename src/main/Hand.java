@@ -4,11 +4,8 @@ package main;
  * ハンド
  */
 public class Hand {
-	enum handtype {
-		goo, choki, pa;
+	enum handType {
+		goo, choki, paa;
 	}
 
-	public handtype getRandomHand() {
-		return handtype.goo;
-	}
 }
