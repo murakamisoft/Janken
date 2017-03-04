@@ -1,4 +1,4 @@
-package main;
+package game;
 
 /**
  * ハンド種別

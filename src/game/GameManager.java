@@ -1,4 +1,4 @@
-package main;
+package game;
 
 import common.ErrorMessageUtil;
 import common.ScanUtil;
@@ -43,6 +43,7 @@ public class GameManager {
 			Select title = getSelectTitleNum();
 			// 終了
 			if (title.isEnd()) {
+				System.out.println("Good Bye!");
 				return;
 			}
 

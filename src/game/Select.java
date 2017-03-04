@@ -1,7 +1,7 @@
-package main;
+package game;
 
 import constant.Constant;
-import main.Hand.handType;
+import game.Hand.handType;
 
 /**
  * 選択オブジェクト

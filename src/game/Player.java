@@ -1,6 +1,6 @@
-package main;
+package game;
 
-import main.Hand.handType;
+import game.Hand.handType;
 
 /**
  * プレイヤー

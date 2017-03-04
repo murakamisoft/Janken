@@ -1,9 +1,9 @@
-package main;
+package game;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.Hand.handType;
+import game.Hand.handType;
 
 /**
  * 判定者
