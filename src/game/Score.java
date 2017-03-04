@@ -57,6 +57,6 @@ public class Score {
 		System.out.println("勝ち：\t" + this.win);
 		System.out.println("負け：\t" + this.lose);
 		System.out.println("引き分け：\t" + this.drow);
-
+		System.out.println();
 	}
 }

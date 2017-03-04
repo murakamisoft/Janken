@@ -93,8 +93,9 @@ public class GameManager {
 			// エラー
 			if (select.isNotJanken()) {
 				ErrorMessageUtil.printInputError();
+			} else {
+				break;
 			}
-			break;
 
 		}
 		return select;

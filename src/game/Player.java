@@ -1,5 +1,7 @@
 package game;
 
+import common.NumberUtil;
+import constant.Constant;
 import game.Hand.handType;
 
 /**
@@ -25,9 +27,16 @@ public class Player {
 	 * ランダムなハンドタイプを設定する
 	 */
 	public void setRandomHandType() {
-		// TODO
-		this.handtype = Hand.handType.goo;
-
+		int i = NumberUtil.getRndNo(3);
+		if (i == Constant.GOO) {
+			this.handtype = Hand.handType.goo;
+		} else if (i == Constant.PAA) {
+			this.handtype = Hand.handType.paa;
+		} else if (i == Constant.CHOKI) {
+			this.handtype = Hand.handType.choki;
+		} else {
+			System.err.println("想定外の値です。乱数：" + i);
+		}
 	}
 
 	/**
